@@ -31,7 +31,7 @@ CREATE TABLE table_name (
   ...
 );
 ```
-Let's see an example, shall we?
+_Let's see an example, shall we?_
 ```sql
 CREATE TABLE Humans (
   PersonID int,
@@ -43,16 +43,26 @@ CREATE TABLE Humans (
 ```
 If you [click here](https://www.w3schools.com/Sql/sql_datatypes.asp), you can have a look at all the SQL data types. Spoiler Alert; there's a lot! 😱 Each column in a database table is required to have a name and a data type.
 
++ The `ALTAR` statement is used to add, delete, or modify columns in an existing table:
+```sql
+ALTER TABLE table_name
+ADD column_name datatype;
+```
+
 * * *
 
 ## Relational Database Management System
 **RDBMS** is the basis for SQL and the data in RDBMS is stored in database objects called tables. **RDBMS** uses a structure that allows us to identify and access data _in relation_ to another piece of data in the database. A table is a collection of related data entries and it consists of columns and rows (often called _records_).
 A database most often contains one or more tables. Each table is identified by a name (e.g. "Customers" or "Products").
 
+* * *
+
 ## Postgres
 A powerful and open source **object-relational database** where you can model any data and their relationships using _tables_, _keys_, _constaints_ and _triggers_.
 Postgres itself is a database _server_ and there are several ways to connect to the database; **GUI**s, **CLI**s and **ORM**s (**Object–Relational Mapping**, a programming technique for converting data between incompatible types of systems by creationg a _"virtual object database"_ using object-oriented programming languages).
 In order to run and use Postgres on your own computer, you will need to set up both a Postgres server and a client.
+
+* * *
 
 ## Some of The Most Important SQL Commands
 * `SELECT` - extracts data from a database

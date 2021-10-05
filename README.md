@@ -23,6 +23,10 @@ FROM table_name WHERE condition;
 **RDBMS** is the basis for SQL and the data in RDBMS is stored in database objects called tables. **RDBMS** uses a structure that allows us to identify and access data _in relation_ to another piece of data in the database. A table is a collection of related data entries and it consists of columns and rows (often called _records_).
 A database most often contains one or more tables. Each table is identified by a name (e.g. "Customers" or "Products").
 
+## Postgres
+A powerful and open source object-relational database where you can model any data and their relationships using tables, keys, constaints and triggers.
+Postgres itself is a database server.
+
 ## Some of The Most Important SQL Commands
 * `SELECT` - extracts data from a database
 * `UPDATE` - updates data in a database

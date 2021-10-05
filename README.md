@@ -18,7 +18,7 @@ SELECT column1, column2 FROM table_name;
 SELECT column1, column2. ...
 FROM table_name WHERE condition;
 ```
-+ Create a new database:
+### Create a new database:
  ```sql
  CREATE DATABASE databasename;
  ````

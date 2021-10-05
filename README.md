@@ -8,14 +8,16 @@ SELECT * FROM table_name;
 
 -- The following SQL statement selects the "column1" and "column2" columns from the "table_name" table:
 SELECT column1, column2 FROM table_name;
-SELECT CustomerName, City FROM Customers;
 ```
-## Example Commands
-`SELECT`, `UPDATE`, `DELETE`, `INSERT`, `WHERE`
 
 > SQL keywords are NOT case sensitive: `select` is the same as `SELECT`
 
 + The `WHERE` clause is used to filter records and extract only those records that fulfill a specified condition.
+
+```sql
+SELECT column1, column2. ...
+FROM table_name WHERE condition;
+```
 
 ## Relational Database Management System
 **RDBMS** is the basis for SQL and the data in RDBMS is stored in database objects called tables. **RDBMS** uses a structure that allows us to identify and access data _in relation_ to another piece of data in the database. A table is a collection of related data entries and it consists of columns and rows (often called _records_).

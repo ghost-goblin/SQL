@@ -1,5 +1,5 @@
 # 🏓 [Structured Query Language](https://www.w3schools.com/Sql/default.asp)
-SQL is a standard language for storing, manipulating and retrieving data in databases.
+**SQL** is a standard language for _storing_, _manipulating_ and _retrieving_ data in databases.
 
 ## Syntax Rules
 ```sql

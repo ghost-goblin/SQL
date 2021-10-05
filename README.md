@@ -57,7 +57,7 @@ A database most often contains one or more tables. Each table is identified by a
 
 * * *
 
-## Postgres
+## [Postgres](https://www.postgresql.org/)
 A powerful and open source **object-relational database** where you can model any data and their relationships using _tables_, _keys_, _constaints_ and _triggers_.
 Postgres itself is a database _server_ and there are several ways to connect to the database; **GUI**s, **CLI**s and **ORM**s (**Object–Relational Mapping**, a programming technique for converting data between incompatible types of systems by creationg a _"virtual object database"_ using object-oriented programming languages).
 In order to run and use Postgres on your own computer, you will need to set up both a Postgres server and a client.

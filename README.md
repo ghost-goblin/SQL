@@ -41,6 +41,8 @@ CREATE TABLE Humans (
   City varchar(255)
 );
 ```
+If you [click here](https://www.w3schools.com/Sql/sql_datatypes.asp), you can have a look at all the SQL data types. Spoiler Alert. there's a lot! Each column in a database table is required to have a name and a data type.
+
 * * *
 
 ## Relational Database Management System

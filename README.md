@@ -1,4 +1,4 @@
-# 🏓 Structured Query Language
+# 🏓 [Structured Query Language](https://www.w3schools.com/Sql/default.asp)
 SQL is a standard language for storing, manipulating and retrieving data in databases.
 
 ## Syntax Rules

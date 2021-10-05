@@ -5,7 +5,7 @@ SQL is a standard language for storing, manipulating and retrieving data in data
 ```sql
 SELECT * FROM Products;
 ```
-## Example commands
+## Example Commands
 `SELECT`, `UPDATE`, `DELETE`, `INSERT`, `WHERE`
 
 > SQL keywords are NOT case sensitive: `select` is the same as `SELECT`

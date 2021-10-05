@@ -24,8 +24,8 @@ FROM table_name WHERE condition;
 A database most often contains one or more tables. Each table is identified by a name (e.g. "Customers" or "Products").
 
 ## Postgres
-A powerful and open source object-relational database where you can model any data and their relationships using tables, keys, constaints and triggers.
-Postgres itself is a database _server_ and there are several ways to connect to the database; GUIs, CLIs and ORMs (**Object–relational Mapping**, programming technique for converting data between incompatible types of systems by creationg a "virtual object database" using object-oriented programming languages).
+A powerful and open source **object-relational database** where you can model any data and their relationships using tables, keys, constaints and triggers.
+Postgres itself is a database _server_ and there are several ways to connect to the database; **GUI**s, **CLI**s and **ORM**s (**Object–Relational Mapping**, programming technique for converting data between incompatible types of systems by creationg a "virtual object database" using object-oriented programming languages).
 
 ## Some of The Most Important SQL Commands
 * `SELECT` - extracts data from a database

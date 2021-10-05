@@ -1,2 +1,6 @@
-# SQL
-📁 Personal repository for SQL
+# 📁 SQL
+
+### Syntax Rules
+```sql
+SELECT * FROM Customers;
+```

@@ -12,12 +12,36 @@ SELECT column1, column2 FROM table_name;
 
 > SQL keywords are NOT case sensitive: `select` is the same as `SELECT`
 
-+ The `WHERE` clause is used to filter records and extract only those records that fulfill a specified condition.
++ The `WHERE` clause is used to filter records and extract only those records that fulfill a specified condition:
 
 ```sql
 SELECT column1, column2. ...
 FROM table_name WHERE condition;
 ```
++ Create a new database:
+ ```sql
+ CREATE DATABASE databasename;
+ ````
++ Create a new table in a database:
+```sql
+CREATE TABLE table_name (
+  column1 datatype,
+  column2 datatype.
+  column3 datatype,
+  ...
+);
+```
+Let's see an example, shall we?
+```sql
+CREATE TABLE Humans (
+  PersonID int,
+  LastName varchar(255),
+  FirstName varchar(255),
+  Address varchar(255),
+  City varchar(255)
+);
+```
+* * *
 
 ## Relational Database Management System
 **RDBMS** is the basis for SQL and the data in RDBMS is stored in database objects called tables. **RDBMS** uses a structure that allows us to identify and access data _in relation_ to another piece of data in the database. A table is a collection of related data entries and it consists of columns and rows (often called _records_).

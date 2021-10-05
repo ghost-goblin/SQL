@@ -3,7 +3,12 @@ SQL is a standard language for storing, manipulating and retrieving data in data
 
 ## Syntax Rules
 ```sql
-SELECT * FROM Products;
+-- The following SQL statement selects all the columns from the "table_name" table:
+SELECT * FROM table_name;
+
+-- The following SQL statement selects the "column1" and "column2" columns from the "table_name" table:
+SELECT column1, column2 FROM table_name;
+SELECT CustomerName, City FROM Customers;
 ```
 ## Example Commands
 `SELECT`, `UPDATE`, `DELETE`, `INSERT`, `WHERE`

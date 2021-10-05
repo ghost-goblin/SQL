@@ -12,7 +12,7 @@ SELECT column1, column2 FROM table_name;
 
 > SQL keywords are NOT case sensitive: `select` is the same as `SELECT`
 
-+ The `WHERE` clause is used to filter records and extract only those records that fulfill a specified condition:
+### The `WHERE` clause is used to filter records and extract only those records that fulfill a specified condition:
 
 ```sql
 SELECT column1, column2. ...
@@ -22,7 +22,7 @@ FROM table_name WHERE condition;
  ```sql
  CREATE DATABASE databasename;
  ````
-+ Create a new table in a database:
+### Create a new table in a database:
 ```sql
 CREATE TABLE table_name (
   column1 datatype,
@@ -43,7 +43,7 @@ CREATE TABLE Humans (
 ```
 If you [click here](https://www.w3schools.com/Sql/sql_datatypes.asp), you can have a look at all the SQL data types. Spoiler Alert; there's a lot! 😱 Each column in a database table is required to have a name and a data type.
 
-+ The `ALTAR` statement is used to add, delete, or modify columns in an existing table:
+### The `ALTAR` statement is used to add, delete, or modify columns in an existing table:
 ```sql
 ALTER TABLE table_name
 ADD column_name datatype;

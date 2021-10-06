@@ -18,6 +18,8 @@ SELECT column1, column2 FROM table_name;
 SELECT column1, column2. ...
 FROM table_name WHERE condition;
 ```
++ The `WHERE` clause can be conbined with `AND`, `OR` and `NOT` operators.
+
 ### Create a new database:
  ```sql
  CREATE DATABASE databasename;

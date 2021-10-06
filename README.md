@@ -51,7 +51,7 @@ ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
-### SQL Constaints are used to specify rules for data in a table. Constaints can be specified when the table is created with the `CREATE TABLE` or the `ALTER TABLE` statement.
+### SQL Constaints are used to specify rules for data in a table and can be specified when the table is created with the `CREATE TABLE` or the `ALTER TABLE` statement:
 ```sql
 CREATE TABLE table_name (
     column1 datatype constraint,

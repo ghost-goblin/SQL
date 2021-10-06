@@ -51,6 +51,26 @@ ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
+### SQL Constaints are used to specify rules for data in a table. Constaints can be specified when the table is created with the `CREATE TABLE` or the `ALTER TABLE` statement.
+```sql
+CREATE TABLE table_name (
+    column1 datatype constraint,
+    column2 datatype constraint,
+    column3 datatype constraint,
+    ....
+);
+```
+Constaints are used to limit the type of data that goes into a table which ensures accuracy and reliability of the data. Constaints can be column level or table level.
+The commonly used constaints are:
++ `NOT NULL` - Ensures that a column cannot have a NULL value
++ `UNIQUE` - Ensures that all values in a column are different
++ `PRIMARY KEY` - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
++ `FOREIGN KEY` - Prevents actions that would destroy links between tables
++ `CHECK` - Ensures that the values in a column satisfies a specific condition
++ `DEFAULT` - Sets a default value for a column if no value is specified
++ `CREATE INDEX` - Used to create and retrieve data from the database very quickly
+
+
 * * *
 
 ## Relational Database Management System
